@@ -48,7 +48,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3757758, 0.2795154, -13.69
 environment = SubResource("Environment_hjsbj")
 
 [node name="player" parent="." unique_id=516224011 instance=ExtResource("2_hjsbj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.964174, 1.2610794, -15.230104)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.964174, 1.2610794, -52.854897)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1167482054]
 layer = 10

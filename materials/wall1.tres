@@ -1,9 +1,9 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://dr6uc7u3rou35"]
 
-[ext_resource type="Texture2D" uid="uid://bbp81gpg8dwjm" path="res://models/house interior/house_interior_42.png" id="1_uwegu"]
+[ext_resource type="Texture2D" uid="uid://1ycebfvqmnyo" path="res://texturas/noFilter.png" id="1_uwegu"]
 
 [resource]
-albedo_color = Color(0.5559214, 0.9101064, 0.9999972, 1)
+albedo_color = Color(0.1638, 0.24296997, 0.39, 1)
 albedo_texture = ExtResource("1_uwegu")
 uv1_scale = Vector3(-1.455, 0.855, 1.855)
 uv1_offset = Vector3(0, 0.195, 0)
