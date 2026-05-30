@@ -1,0 +1,78 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://dnp0a2i815gjt"
+path="res://.godot/imported/low-poly_psx_style_essential_doors_pack.glb-a4f2b23789fd5da29e641d97882e68f7.scn"
+
+[deps]
+
+source_file="res://models/furniture/low-poly_psx_style_essential_doors_pack.glb"
+dest_files=["res://.godot/imported/low-poly_psx_style_essential_doors_pack.glb-a4f2b23789fd5da29e641d97882e68f7.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Bathroom Door_002_001": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Bathroom Doorframe_001_001": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Closet Door_001_001": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Closet Door_002_001": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Closet Doorframe_001_001": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Front Door_006_001": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Front Doorframe_003_001": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_009_001": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Doorframe_009_002": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Worn Door_004_001": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Worn Doorframe_004_001": {
+"import/skip_import": true
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://d3hg1dl0p43w2"]
+
+[ext_resource type="Texture2D" uid="uid://gl3eo6nwup20" path="res://models/house interior/house_interior_65.png" id="1_cbfn4"]
+
+[resource]
+albedo_texture = ExtResource("1_cbfn4")
+uv1_scale = Vector3(3.875, 3.75, 1.315)
+uv1_offset = Vector3(0, 0.415, 0)
+uv1_triplanar = true

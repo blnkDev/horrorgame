@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://n4n5gfi2gh0u"]
+
+[ext_resource type="Texture2D" uid="uid://cc55t7y1vipfh" path="res://texturas/grass4.png" id="1_80vhd"]
+[ext_resource type="PackedScene" uid="uid://daf1106b3yhwi" path="res://player/player.tscn" id="2_hjsbj"]
+[ext_resource type="PackedScene" uid="uid://bihv4225g1451" path="res://models/casa.tscn" id="3_cwqvt"]
+[ext_resource type="Shader" uid="uid://dc26mn7365iji" path="res://levels/vhs.gdshader" id="4_5mrsh"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hjsbj"]
+size = Vector3(0.99609375, 1, 0.99902344)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cwqvt"]
+albedo_texture = ExtResource("1_80vhd")
+uv1_scale = Vector3(10, 10, 10)
+
+[sub_resource type="BoxMesh" id="BoxMesh_5mrsh"]
+
+[sub_resource type="Environment" id="Environment_hjsbj"]
+background_energy_multiplier = 0.2
+glow_enabled = true
+fog_light_color = Color(0.19714966, 0.21763703, 0.24951535, 1)
+volumetric_fog_density = 0.01
+volumetric_fog_emission_energy = 0.5
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_safpt"]
+shader = ExtResource("4_5mrsh")
+shader_parameter/pixel_size = 3.0
+shader_parameter/color_depth = 32.0
+shader_parameter/scanline_intensity = 0.15
+shader_parameter/grain_intensity = 0.08
+
+[node name="level" type="Node3D" unique_id=2061620132]
+
+[node name="floor" type="StaticBody3D" parent="." unique_id=497338945]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="floor" unique_id=2090234553]
+transform = Transform3D(15, 0, 0, 0, 1, 0, 0, 0, 15, 0, 0, 0)
+shape = SubResource("BoxShape3D_hjsbj")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="floor" unique_id=1977517946]
+transform = Transform3D(15.183477, 0, 0, 0, 1.0122318, 0, 0, 0, 15.183477, 0, 0, 2.8185198)
+material_override = SubResource("StandardMaterial3D_cwqvt")
+mesh = SubResource("BoxMesh_5mrsh")
+
+[node name="casa" parent="." unique_id=1971763124 instance=ExtResource("3_cwqvt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3757758, 0.2795154, -13.696112)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1854061095]
+environment = SubResource("Environment_hjsbj")
+
+[node name="player" parent="." unique_id=516224011 instance=ExtResource("2_hjsbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.964174, 1.2610794, -15.230104)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1167482054]
+layer = 10
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=53527172]
+material = SubResource("ShaderMaterial_safpt")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
