@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://chaqkwqxq1wnd" path="res://player/player.gd" id="1_rkbax"]
 [ext_resource type="Script" uid="uid://v3368iq5oteb" path="res://player/fp_cam.gd" id="2_g1dw6"]
 [ext_resource type="PackedScene" uid="uid://cuyl1ly7ih6p8" path="res://models/old_flashlight.glb" id="3_g1dw6"]
+[ext_resource type="Script" uid="uid://xws1vla5m2nq" path="res://models/flashlight.gd" id="4_boad6"]
 [ext_resource type="AudioStream" uid="uid://c4p6ne3r0l11y" path="res://sons/flashlight.mp3" id="4_yw30f"]
 [ext_resource type="Script" uid="uid://b6uxwqwo6au5k" path="res://player/agachar.gd" id="5_qjkh3"]
 [ext_resource type="Script" uid="uid://cx4k0ti20hemf" path="res://player/interacao_component.gd" id="6_g6k8r"]
@@ -56,6 +57,7 @@ script = ExtResource("2_g1dw6")
 
 [node name="flashlight" parent="head/Camera3D" unique_id=1580010387 instance=ExtResource("3_g1dw6")]
 transform = Transform3D(-0.098747656, 0.0010810352, -0.015739383, -0.0007025546, 0.09936467, 0.011232474, 0.015760818, 0.011202384, -0.09811267, 0.42200536, -0.31053913, -0.4286455)
+script = ExtResource("4_boad6")
 
 [node name="Object_2" parent="head/Camera3D/flashlight/Sketchfab_model/Flashlight_obj_cleaner_materialmerger_gles" parent_id_path=PackedInt32Array(1580010387, 930932206) index="0" unique_id=300063620]
 cast_shadow = 0
