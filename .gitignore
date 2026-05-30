@@ -1,3 +1,39 @@
-# Godot 4+ specific ignores
+# Godot 4 - arquivos gerados automaticamente (não versionar)
 .godot/
-/android/
+
+# Importação de assets (regenerados pelo Godot)
+*.import
+
+# Arquivos de exportação
+/export/
+*.pck
+*.apk
+*.aab
+*.ipa
+*.exe
+*.x86_64
+*.arm64
+*.app
+
+# VoxelGI e dados de bake (pesados, regeneráveis)
+*.voxelgi
+level.VoxelGI_data.res
+
+# Mono / C# (se usar)
+.mono/
+data_*/
+mono_crash.*.json
+
+# Editor local (configurações de cada dev, não compartilhar)
+.editorconfig.local
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*~
