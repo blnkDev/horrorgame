@@ -17,8 +17,8 @@
 [ext_resource type="Script" uid="uid://bwnxgkf51uenc" path="res://models/interact.gd" id="13_kymfh"]
 [ext_resource type="Texture2D" uid="uid://bjmun2ap650on" path="res://models/furniture/psx_style_smoking_pack_2.png" id="13_pyvie"]
 [ext_resource type="Script" uid="uid://cqbipnrfvdxcq" path="res://models/interactPorta.gd" id="13_u7a0b"]
-[ext_resource type="Texture2D" uid="uid://cm8ikm73d5kfc" path="res://models/furniture/psx_style_smoking_pack_1.png" id="14_18uxv"]
 [ext_resource type="Texture2D" uid="uid://cc55t7y1vipfh" path="res://texturas/grass4.png" id="15_u230l"]
+[ext_resource type="PackedScene" uid="uid://c73btxfyw752l" path="res://models/furniture/minsk_fridge.glb" id="19_18uxv"]
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_yy2kw"]
 data = PackedVector3Array(0.91719997, -0.46339998, -0.0002, 0.94299996, -0.44849998, -0.0002, 0.91719997, -0.4337, -0.0002, 0.91719997, -0.46339998, -0.0002, 0.94299996, -0.47829998, -0.0002, 0.94299996, -0.44849998, -0.0002, 0.91719997, -0.46339998, -0.0002, 0.91719997, -0.4337, -0.0002, 0.8914, -0.44849998, -0.0002, 0.91719997, -0.46339998, -0.0002, 0.91719997, -0.49319997, -0.0002, 0.94299996, -0.47829998, -0.0002, 0.91719997, -0.46339998, -0.0002, 0.8914, -0.44849998, -0.0002, 0.8914, -0.47829998, -0.0002, 0.91719997, -0.46339998, -0.0002, 0.8914, -0.47829998, -0.0002, 0.91719997, -0.49319997, -0.0002, -0.91719997, -0.46339998, -0.0002, -0.91719997, -0.4337, -0.0002, -0.94299996, -0.44849998, -0.0002, -0.91719997, -0.46339998, -0.0002, -0.8914, -0.44849998, -0.0002, -0.91719997, -0.4337, -0.0002, -0.91719997, -0.46339998, -0.0002, -0.94299996, -0.44849998, -0.0002, -0.94299996, -0.47829998, -0.0002, -0.91719997, -0.46339998, -0.0002, -0.8914, -0.47829998, -0.0002, -0.8914, -0.44849998, -0.0002, -0.91719997, -0.46339998, -0.0002, -0.94299996, -0.47829998, -0.0002, -0.91719997, -0.49319997, -0.0002, -0.91719997, -0.46339998, -0.0002, -0.91719997, -0.49319997, -0.0002, -0.8914, -0.47829998, -0.0002, 0.91719997, 0.46339998, -0.0002, 0.91719997, 0.43359998, -0.0002, 0.94299996, 0.44849998, -0.0002, 0.91719997, 0.46339998, -0.0002, 0.8914, 0.44849998, -0.0002, 0.91719997, 0.43359998, -0.0002, 0.91719997, 0.46339998, -0.0002, 0.94299996, 0.44849998, -0.0002, 0.94299996, 0.47829998, -0.0002, 0.91719997, 0.46339998, -0.0002, 0.8914, 0.47829998, -0.0002, 0.8914, 0.44849998, -0.0002, 0.91719997, 0.46339998, -0.0002, 0.94299996, 0.47829998, -0.0002, 0.91719997, 0.49319997, -0.0002, 0.91719997, 0.46339998, -0.0002, 0.91719997, 0.49319997, -0.0002, 0.8914, 0.47829998, -0.0002, -0.91719997, 0.46339998, -0.0002, -0.94299996, 0.44849998, -0.0002, -0.91719997, 0.43359998, -0.0002, -0.91719997, 0.46339998, -0.0002, -0.94299996, 0.47829998, -0.0002, -0.94299996, 0.44849998, -0.0002, -0.91719997, 0.46339998, -0.0002, -0.91719997, 0.43359998, -0.0002, -0.8914, 0.44849998, -0.0002, -0.91719997, 0.46339998, -0.0002, -0.91719997, 0.49319997, -0.0002, -0.94299996, 0.47829998, -0.0002, -0.91719997, 0.46339998, -0.0002, -0.8914, 0.44849998, -0.0002, -0.8914, 0.47829998, -0.0002, -0.91719997, 0.46339998, -0.0002, -0.8914, 0.47829998, -0.0002, -0.91719997, 0.49319997, -0.0002, 0.8991, -0.44799998, 0.7653, -0.8991, -0.44799998, 0.86179996, -0.8991, -0.44799998, 0.7653, 0.8991, -0.44799998, 0.7653, 0.8991, -0.44799998, 0.86179996, -0.8991, -0.44799998, 0.86179996, -0.8991, -0.48119998, 0.7653, 0.8991, -0.48119998, 0.86179996, 0.8991, -0.48119998, 0.7653, -0.8991, -0.48119998, 0.7653, -0.8991, -0.48119998, 0.86179996, 0.8991, -0.48119998, 0.86179996, 0.8991, -0.44799998, 0.7653, -0.8991, -0.48119998, 0.7653, 0.8991, -0.48119998, 0.7653, 0.8991, -0.44799998, 0.7653, -0.8991, -0.44799998, 0.7653, -0.8991, -0.48119998, 0.7653, 0.8991, 0.4479, 0.7653, -0.8991, 0.4479, 0.86179996, 0.8991, 0.4479, 0.86179996, 0.8991, 0.4479, 0.7653, -0.8991, 0.4479, 0.7653, -0.8991, 0.4479, 0.86179996, -0.8991, 0.48119998, 0.7653, 0.8991, 0.48119998, 0.86179996, -0.8991, 0.48119998, 0.86179996, -0.8991, 0.48119998, 0.7653, 0.8991, 0.48119998, 0.7653, 0.8991, 0.48119998, 0.86179996, 0.8991, 0.4479, 0.7653, -0.8991, 0.48119998, 0.7653, -0.8991, 0.4479, 0.7653, 0.8991, 0.4479, 0.7653, 0.8991, 0.48119998, 0.7653, -0.8991, 0.48119998, 0.7653, 1.0432, -0.5559, 0.964, -1.0432, -0.5559, 0.91969997, -1.0432, -0.5559, 0.964, 1.0432, -0.5559, 0.964, 1.0432, -0.5559, 0.91969997, -1.0432, -0.5559, 0.91969997, -1.0432, -0.5559, 0.91969997, 1.0432, -0.5559, 0.91969997, 0.9575, -0.5103, 0.86179996, -1.0432, -0.5559, 0.91969997, 0.9575, -0.5103, 0.86179996, -0.9575, -0.5103, 0.86179996, -1.0432, -0.5559, 0.964, -1.0432, 0.5559, 0.91969997, -1.0432, 0.5559, 0.964, -1.0432, -0.5559, 0.964, -1.0432, -0.5559, 0.91969997, -1.0432, 0.5559, 0.91969997, -1.0432, 0.5559, 0.91969997, -1.0432, -0.5559, 0.91969997, -0.9575, -0.5103, 0.86179996, -1.0432, 0.5559, 0.91969997, -0.9575, -0.5103, 0.86179996, -0.9575, 0.5103, 0.86179996, -1.0432, 0.5559, 0.964, 1.0432, 0.5559, 0.91969997, 1.0432, 0.5559, 0.964, -1.0432, 0.5559, 0.964, -1.0432, 0.5559, 0.91969997, 1.0432, 0.5559, 0.91969997, 1.0432, 0.5559, 0.91969997, -1.0432, 0.5559, 0.91969997, -0.9575, 0.5103, 0.86179996, 1.0432, 0.5559, 0.91969997, -0.9575, 0.5103, 0.86179996, 0.9575, 0.5103, 0.86179996, 1.0432, 0.5559, 0.964, 1.0432, -0.5559, 0.91969997, 1.0432, -0.5559, 0.964, 1.0432, 0.5559, 0.964, 1.0432, 0.5559, 0.91969997, 1.0432, -0.5559, 0.91969997, 1.0432, -0.5559, 0.91969997, 1.0432, 0.5559, 0.91969997, 0.9575, 0.5103, 0.86179996, 1.0432, -0.5559, 0.91969997, 0.9575, 0.5103, 0.86179996, 0.9575, -0.5103, 0.86179996, -1.0432, -0.5559, 0.964, 1.0432, 0.5559, 0.964, 1.0432, -0.5559, 0.964, -1.0432, -0.5559, 0.964, -1.0432, 0.5559, 0.964, 1.0432, 0.5559, 0.964, -0.9575, 0.5103, 0.86179996, 0.9575, -0.5103, 0.86179996, 0.9575, 0.5103, 0.86179996, -0.9575, 0.5103, 0.86179996, -0.9575, -0.5103, 0.86179996, 0.9575, -0.5103, 0.86179996, 0.8991, -0.4405, 0.7653, 0.8991, 0.44039997, 0.86179996, 0.8991, -0.4405, 0.86179996, 0.8991, -0.4405, 0.7653, 0.8991, 0.44039997, 0.7653, 0.8991, 0.44039997, 0.86179996, 0.9324, 0.44039997, 0.7653, 0.9324, -0.4405, 0.86179996, 0.9324, 0.44039997, 0.86179996, 0.9324, 0.44039997, 0.7653, 0.9324, -0.4405, 0.7653, 0.9324, -0.4405, 0.86179996, 0.8991, -0.4405, 0.7653, 0.9324, 0.44039997, 0.7653, 0.8991, 0.44039997, 0.7653, 0.8991, -0.4405, 0.7653, 0.9324, -0.4405, 0.7653, 0.9324, 0.44039997, 0.7653, -0.8991, -0.4405, 0.7653, -0.8991, 0.44039997, 0.86179996, -0.8991, 0.44039997, 0.7653, -0.8991, -0.4405, 0.7653, -0.8991, -0.4405, 0.86179996, -0.8991, 0.44039997, 0.86179996, -0.9324, 0.44039997, 0.7653, -0.9324, -0.4405, 0.86179996, -0.9324, -0.4405, 0.7653, -0.9324, 0.44039997, 0.7653, -0.9324, 0.44039997, 0.86179996, -0.9324, -0.4405, 0.86179996, -0.8991, -0.4405, 0.7653, -0.9324, 0.44039997, 0.7653, -0.9324, -0.4405, 0.7653, -0.8991, -0.4405, 0.7653, -0.8991, 0.44039997, 0.7653, -0.9324, 0.44039997, 0.7653, 0.91719997, -0.4175, 0.102, 0.95699996, -0.4405, 0.86179996, 0.91719997, -0.4175, 0.86179996, 0.8774, -0.4405, 0.102, 0.91719997, -0.4175, 0.86179996, 0.8774, -0.4405, 0.86179996, 0.8774, -0.4405, 0.102, 0.91719997, -0.4175, 0.102, 0.91719997, -0.4175, 0.86179996, 0.8774, -0.4405, 0.102, 0.91719997, -0.4337, -0.0002, 0.91719997, -0.4175, 0.102, 0.8774, -0.4405, 0.102, 0.8914, -0.44849998, -0.0002, 0.91719997, -0.4337, -0.0002, 0.91719997, -0.4175, 0.102, 0.91719997, -0.4337, -0.0002, 0.94299996, -0.44849998, -0.0002, 0.91719997, -0.4175, 0.102, 0.95699996, -0.4405, 0.102, 0.95699996, -0.4405, 0.86179996, 0.91719997, -0.4175, 0.102, 0.94299996, -0.44849998, -0.0002, 0.95699996, -0.4405, 0.102, 0.95699996, -0.4405, 0.102, 0.95699996, -0.48639998, 0.86179996, 0.95699996, -0.4405, 0.86179996, 0.95699996, -0.4405, 0.102, 0.94299996, -0.44849998, -0.0002, 0.94299996, -0.47829998, -0.0002, 0.95699996, -0.4405, 0.102, 0.95699996, -0.48639998, 0.102, 0.95699996, -0.48639998, 0.86179996, 0.95699996, -0.4405, 0.102, 0.94299996, -0.47829998, -0.0002, 0.95699996, -0.48639998, 0.102, 0.95699996, -0.48639998, 0.102, 0.91719997, -0.5094, 0.86179996, 0.95699996, -0.48639998, 0.86179996, 0.95699996, -0.48639998, 0.102, 0.94299996, -0.47829998, -0.0002, 0.91719997, -0.49319997, -0.0002, 0.95699996, -0.48639998, 0.102, 0.91719997, -0.5094, 0.102, 0.91719997, -0.5094, 0.86179996, 0.95699996, -0.48639998, 0.102, 0.91719997, -0.49319997, -0.0002, 0.91719997, -0.5094, 0.102, 0.91719997, -0.5094, 0.102, 0.8774, -0.48639998, 0.86179996, 0.91719997, -0.5094, 0.86179996, 0.91719997, -0.5094, 0.102, 0.91719997, -0.49319997, -0.0002, 0.8914, -0.47829998, -0.0002, 0.91719997, -0.5094, 0.102, 0.8774, -0.48639998, 0.102, 0.8774, -0.48639998, 0.86179996, 0.91719997, -0.5094, 0.102, 0.8914, -0.47829998, -0.0002, 0.8774, -0.48639998, 0.102, 0.8774, -0.48639998, 0.102, 0.8774, -0.4405, 0.86179996, 0.8774, -0.48639998, 0.86179996, 0.8774, -0.48639998, 0.102, 0.8914, -0.47829998, -0.0002, 0.8914, -0.44849998, -0.0002, 0.8774, -0.48639998, 0.102, 0.8774, -0.4405, 0.102, 0.8774, -0.4405, 0.86179996, 0.8774, -0.48639998, 0.102, 0.8914, -0.44849998, -0.0002, 0.8774, -0.4405, 0.102, -0.91719997, -0.4175, 0.102, -0.95699996, -0.4405, 0.86179996, -0.95699996, -0.4405, 0.102, -0.95699996, -0.4405, 0.102, -0.95699996, -0.4405, 0.86179996, -0.95699996, -0.48639998, 0.86179996, -0.91719997, -0.4175, 0.102, -0.91719997, -0.4175, 0.86179996, -0.95699996, -0.4405, 0.86179996, -0.8775, -0.4405, 0.102, -0.91719997, -0.4175, 0.86179996, -0.91719997, -0.4175, 0.102, -0.8775, -0.4405, 0.102, -0.8775, -0.4405, 0.86179996, -0.91719997, -0.4175, 0.86179996, -0.8775, -0.4405, 0.102, -0.91719997, -0.4175, 0.102, -0.91719997, -0.4337, -0.0002, -0.8775, -0.4405, 0.102, -0.91719997, -0.4337, -0.0002, -0.8914, -0.44849998, -0.0002, -0.91719997, -0.4175, 0.102, -0.94299996, -0.44849998, -0.0002, -0.91719997, -0.4337, -0.0002, -0.91719997, -0.4175, 0.102, -0.95699996, -0.4405, 0.102, -0.94299996, -0.44849998, -0.0002, -0.95699996, -0.4405, 0.102, -0.94299996, -0.47829998, -0.0002, -0.94299996, -0.44849998, -0.0002, -0.95699996, -0.4405, 0.102, -0.95699996, -0.48639998, 0.86179996, -0.95699996, -0.48639998, 0.102, -0.95699996, -0.4405, 0.102, -0.95699996, -0.48639998, 0.102, -0.94299996, -0.47829998, -0.0002, -0.95699996, -0.48639998, 0.102, -0.95699996, -0.48639998, 0.86179996, -0.91719997, -0.5094, 0.86179996, -0.95699996, -0.48639998, 0.102, -0.91719997, -0.49319997, -0.0002, -0.94299996, -0.47829998, -0.0002, -0.95699996, -0.48639998, 0.102, -0.91719997, -0.5094, 0.86179996, -0.91719997, -0.5094, 0.102, -0.95699996, -0.48639998, 0.102, -0.91719997, -0.5094, 0.102, -0.91719997, -0.49319997, -0.0002, -0.91719997, -0.5094, 0.102, -0.91719997, -0.5094, 0.86179996, -0.8775, -0.48639998, 0.86179996, -0.91719997, -0.5094, 0.102, -0.8914, -0.47829998, -0.0002, -0.91719997, -0.49319997, -0.0002, -0.91719997, -0.5094, 0.102, -0.8775, -0.48639998, 0.86179996, -0.8775, -0.48639998, 0.102, -0.91719997, -0.5094, 0.102, -0.8775, -0.48639998, 0.102, -0.8914, -0.47829998, -0.0002, -0.8775, -0.48639998, 0.102, -0.8775, -0.48639998, 0.86179996, -0.8775, -0.4405, 0.86179996, -0.8775, -0.48639998, 0.102, -0.8914, -0.44849998, -0.0002, -0.8914, -0.47829998, -0.0002, -0.8775, -0.48639998, 0.102, -0.8775, -0.4405, 0.86179996, -0.8775, -0.4405, 0.102, -0.8775, -0.48639998, 0.102, -0.8775, -0.4405, 0.102, -0.8914, -0.44849998, -0.0002, 0.91719997, 0.4175, 0.102, 0.95699996, 0.44039997, 0.86179996, 0.95699996, 0.44039997, 0.102, 0.95699996, 0.44039997, 0.102, 0.95699996, 0.44039997, 0.86179996, 0.95699996, 0.48639998, 0.86179996, 0.91719997, 0.4175, 0.102, 0.91719997, 0.4175, 0.86179996, 0.95699996, 0.44039997, 0.86179996, 0.8774, 0.44039997, 0.102, 0.91719997, 0.4175, 0.86179996, 0.91719997, 0.4175, 0.102, 0.8774, 0.44039997, 0.102, 0.8774, 0.44039997, 0.86179996, 0.91719997, 0.4175, 0.86179996, 0.8774, 0.44039997, 0.102, 0.91719997, 0.4175, 0.102, 0.91719997, 0.43359998, -0.0002, 0.8774, 0.44039997, 0.102, 0.91719997, 0.43359998, -0.0002, 0.8914, 0.44849998, -0.0002, 0.91719997, 0.4175, 0.102, 0.94299996, 0.44849998, -0.0002, 0.91719997, 0.43359998, -0.0002, 0.91719997, 0.4175, 0.102, 0.95699996, 0.44039997, 0.102, 0.94299996, 0.44849998, -0.0002, 0.95699996, 0.44039997, 0.102, 0.94299996, 0.47829998, -0.0002, 0.94299996, 0.44849998, -0.0002, 0.95699996, 0.44039997, 0.102, 0.95699996, 0.48639998, 0.86179996, 0.95699996, 0.48639998, 0.102, 0.95699996, 0.44039997, 0.102, 0.95699996, 0.48639998, 0.102, 0.94299996, 0.47829998, -0.0002, 0.95699996, 0.48639998, 0.102, 0.95699996, 0.48639998, 0.86179996, 0.91719997, 0.5094, 0.86179996, 0.95699996, 0.48639998, 0.102, 0.91719997, 0.49319997, -0.0002, 0.94299996, 0.47829998, -0.0002, 0.95699996, 0.48639998, 0.102, 0.91719997, 0.5094, 0.86179996, 0.91719997, 0.5094, 0.102, 0.95699996, 0.48639998, 0.102, 0.91719997, 0.5094, 0.102, 0.91719997, 0.49319997, -0.0002, 0.91719997, 0.5094, 0.102, 0.91719997, 0.5094, 0.86179996, 0.8774, 0.48639998, 0.86179996, 0.91719997, 0.5094, 0.102, 0.8914, 0.47829998, -0.0002, 0.91719997, 0.49319997, -0.0002, 0.91719997, 0.5094, 0.102, 0.8774, 0.48639998, 0.86179996, 0.8774, 0.48639998, 0.102, 0.91719997, 0.5094, 0.102, 0.8774, 0.48639998, 0.102, 0.8914, 0.47829998, -0.0002, 0.8774, 0.48639998, 0.102, 0.8774, 0.48639998, 0.86179996, 0.8774, 0.44039997, 0.86179996, 0.8774, 0.48639998, 0.102, 0.8914, 0.44849998, -0.0002, 0.8914, 0.47829998, -0.0002, 0.8774, 0.48639998, 0.102, 0.8774, 0.44039997, 0.86179996, 0.8774, 0.44039997, 0.102, 0.8774, 0.48639998, 0.102, 0.8774, 0.44039997, 0.102, 0.8914, 0.44849998, -0.0002, -0.91719997, 0.4175, 0.102, -0.95699996, 0.44039997, 0.86179996, -0.91719997, 0.4175, 0.86179996, -0.8775, 0.44039997, 0.102, -0.91719997, 0.4175, 0.86179996, -0.8775, 0.44039997, 0.86179996, -0.8775, 0.44039997, 0.102, -0.91719997, 0.4175, 0.102, -0.91719997, 0.4175, 0.86179996, -0.8775, 0.44039997, 0.102, -0.91719997, 0.43359998, -0.0002, -0.91719997, 0.4175, 0.102, -0.8775, 0.44039997, 0.102, -0.8914, 0.44849998, -0.0002, -0.91719997, 0.43359998, -0.0002, -0.91719997, 0.4175, 0.102, -0.91719997, 0.43359998, -0.0002, -0.94299996, 0.44849998, -0.0002, -0.91719997, 0.4175, 0.102, -0.95699996, 0.44039997, 0.102, -0.95699996, 0.44039997, 0.86179996, -0.91719997, 0.4175, 0.102, -0.94299996, 0.44849998, -0.0002, -0.95699996, 0.44039997, 0.102, -0.95699996, 0.44039997, 0.102, -0.95699996, 0.48639998, 0.86179996, -0.95699996, 0.44039997, 0.86179996, -0.95699996, 0.44039997, 0.102, -0.94299996, 0.44849998, -0.0002, -0.94299996, 0.47829998, -0.0002, -0.95699996, 0.44039997, 0.102, -0.95699996, 0.48639998, 0.102, -0.95699996, 0.48639998, 0.86179996, -0.95699996, 0.44039997, 0.102, -0.94299996, 0.47829998, -0.0002, -0.95699996, 0.48639998, 0.102, -0.95699996, 0.48639998, 0.102, -0.91719997, 0.5094, 0.86179996, -0.95699996, 0.48639998, 0.86179996, -0.95699996, 0.48639998, 0.102, -0.94299996, 0.47829998, -0.0002, -0.91719997, 0.49319997, -0.0002, -0.95699996, 0.48639998, 0.102, -0.91719997, 0.5094, 0.102, -0.91719997, 0.5094, 0.86179996, -0.95699996, 0.48639998, 0.102, -0.91719997, 0.49319997, -0.0002, -0.91719997, 0.5094, 0.102, -0.91719997, 0.5094, 0.102, -0.8775, 0.48639998, 0.86179996, -0.91719997, 0.5094, 0.86179996, -0.91719997, 0.5094, 0.102, -0.91719997, 0.49319997, -0.0002, -0.8914, 0.47829998, -0.0002, -0.91719997, 0.5094, 0.102, -0.8775, 0.48639998, 0.102, -0.8775, 0.48639998, 0.86179996, -0.91719997, 0.5094, 0.102, -0.8914, 0.47829998, -0.0002, -0.8775, 0.48639998, 0.102, -0.8775, 0.48639998, 0.102, -0.8775, 0.44039997, 0.86179996, -0.8775, 0.48639998, 0.86179996, -0.8775, 0.48639998, 0.102, -0.8914, 0.47829998, -0.0002, -0.8914, 0.44849998, -0.0002, -0.8775, 0.48639998, 0.102, -0.8775, 0.44039997, 0.102, -0.8775, 0.44039997, 0.86179996, -0.8775, 0.48639998, 0.102, -0.8914, 0.44849998, -0.0002, -0.8775, 0.44039997, 0.102)
@@ -96,46 +96,6 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_u727j")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ariaq"]
-resource_name = "Cigarette"
-cull_mode = 2
-albedo_texture = ExtResource("14_18uxv")
-roughness = 0.82111454
-
-[sub_resource type="ArrayMesh" id="ArrayMesh_xmhff"]
-_surfaces = [{
-"aabb": AABB(-95.10565, -100, -100, 190.2113, 200, 200),
-"format": 34896613377,
-"index_count": 168,
-"index_data": PackedByteArray("AAAJAAIAEAACAAkAEQACABAAEQAAAAIACQAKABAACwARABAACwAQAAoACQASAAoAEwARAAsAAAABAAkAAQASAAkAFAABAAAADgAAABEADgAUAAAAEwAOABEAFAAIAAEACAAUAA4AAQAVABIACAAVAAEADgAWAAgACAAWABUADgATABYAFQAPABIAFgAGABUAFQAGAA8AEwAXABYAFgAXAAYAEwAFABcABQATAAsAEgAPABgAEgAYAAoAGQALAAoABQALABkAGQAKABgABQAHABcAGgAFABkABQAaAAcADQAZABgAGgAZAA0AGwAaAA0AGgAbAAcADQAYAAwADwAMABgAGwANAAQABwAbAAQABAANAAwAFwAHABwABwAEABwAFwAcAAYABAAMAAMAHAAEAAMADwAdAAwABgAdAA8AHQADAAwABgAcAB0AHAADAB0A"),
-"lods": [42.094296, PackedByteArray("AAAJAAIACgACAAkACwACAAoACwAAAAIACQAMAAoADQALAAoADQAKAAwABQALAA0ADgAAAAsABQAOAAsAAAABAAkABwAFAA0ADgAFAAcADgAIAAAACAABAAAADgAHAAgAAQAPAAkACQAPAAwACAAGAAEACAAHAAYAAQAGAA8ADwADAAwABgADAA8ABAAMAAMABgAEAAMABwAEAAYABAANAAwABwANAAQA"), 157.67555, PackedByteArray("AAABAAIAAQADAAIABAAAAAIABAACAAMABQAAAAQAAQAGAAMABgAEAAMABwAFAAQABwAEAAYABQAIAAAABQAHAAgACAABAAAACAAHAAYACAAGAAEA")],
-"name": "Cigarette",
-"primitive": 3,
-"uv_scale": Vector4(0, 0, 0, 0),
-"vertex_count": 30,
-"vertex_data": PackedByteArray("/3//wgAAAAAaz//CchgAAP9///8AAAAA/3//////AAD/f//C//8AAAAAAACNpwAA////wo2nAAAazwAAjOcAABrPAAByGAAAGs///3IYAAAAAP//cVgAAAAA/8JxWAAA5DD//4znAADkMP/CjOcAAOQwAAByGAAA/////42nAADkMP//chgAAOQw/8JyGAAA/////3FYAAAAAAAAcVgAAP9/AAAAAAAA////wnFYAAD//wAAcVgAAP//AACNpwAAAAD//42nAAAAAP/CjacAAOQwAACM5wAA/38AAP//AAAaz//CjOcAABrP//+M5wAA")
-}]
-blend_shape_mode = 0
-
-[sub_resource type="ArrayMesh" id="ArrayMesh_5etpl"]
-resource_name = "Sketchfab_Scene_Cigarette 2_Cigarette_0"
-_surfaces = [{
-"aabb": AABB(-95.10565, -100, -100, 190.2113, 200, 200),
-"attribute_data": PackedByteArray("idARqR/BlauJ0L/T1zK/06xpEK3XMhGp1zJt/onQbf6BTZaih+vxpMTvVVXB9sVT8EIzU8BfSwaVpL9Rh+uTBFoM2Bv/f8MspPPYGx/BO9GsacDPtJlu+rSZvtdBQun7QUJD1oy8PKIUjshW9TvCVIY7VqV4xFalye4mnzURf5d4xE6RhjtOkf9/6hK0mcDPtJkQrUFCO9FBQpWrrGm+16xpbvofwUPWH8Hp+7vHe1aL5GKj54LuobVYIFa6MPSjuDclBfBqDVJomZkGx87xBfrZZlL/f7Snye5/lzURJp//f/GOeMdiFaTz1SOGOGIVeMdLKloM1SOGOEsq"),
-"format": 34896613399,
-"index_count": 168,
-"index_data": PackedByteArray("AAATAAIAAAABABMAAQAjABMAAQAkACMAJAAUACMAJAAEABQABAAlABQABAAmACUAJgADACUAJgAFAAMABgAYAAMABgAXABgAFwAnABgAFwAoACcAKAAWACcAKAAVABYAFQApABYAFQAqACkAKgACACkAKgAHAAIAGQAKACsAGQAsAAoALQAZACsALAALAAoALAAJAAsALQArABoACAAtABoACAAaAC4ALwAIAC4ALwAuABsAMAAvABsAMAAbAAwADQAwAAwADQAMADEAMgANADEAMgAxAA4AMwAyAA4AMwAOADQADwAzADQADwA0AAsANQAdAB4AHgAcADUAHgA2ABwANgA3ABwANgAgADcAIAAfADcAIAA4AB8AOAAhAB8AEgA5ACIAIgA6ABIAIgA7ADoAOwA8ADoAOwAQADwAEAARADwAEAA9ABEAPQA+ABEA"),
-"lods": [42.094296, PackedByteArray("AAATAAIAAAABABMAAQAUABMAAQAEABQABAADABQABAAFAAMAFQAHAAIAFQACABYAFwAVABYAFwAWABgABgAYAAMABgAXABgAGQAKABoAGQAJAAoACQALAAoACAAZABoACAAaABsADQAIABsADQAbAAwADQAMAA4ADwAOAAsADwANAA4AHAAdAB4AHgAfABwAHgAgAB8AIAAhAB8AIgARABIAIgAQABEA"), 157.67555, PackedByteArray("AAABAAIAAQADAAIAAQAEAAMABAAFAAMABgACAAMABgAHAAIACAAJAAoACQALAAoACAAKAAwADQAIAAwADQAMAA4ADwAOAAsADwANAA4AEAARABIA")],
-"material": SubResource("StandardMaterial3D_ariaq"),
-"name": "Cigarette",
-"primitive": 3,
-"uv_scale": Vector4(0, 0, 0, 0),
-"vertex_count": 63,
-"vertex_data": PackedByteArray("/3//wgAAAAAaz//CchiYGf9///8AAFkc/3//////OAn////CjafMTP9//8L//w1+/3//wv//JQD/f//CAAAAAAAAAACNpywRGs8AAHIY4R3/f//CAAAAABrP/8JyGFoA/3//wv//g34azwAAjOf0Wf///8KNp8xMGs8AAHIY7BoAAAAAjadoMRrPAACM5wxaGs8AAHIYMCQaz///chgQGP////+NpzFGAAD/wnFYEQAAAP//cViVFuQw/8KM5/0A5DD//4znzwjkMAAAchjrGgAA/8JxWAAA5DD/woznqyAAAP//cVitIP9///8AAMkbGs///3IYMCTkMP//jOfWTf////+Np6RJ/3//////lV7kMAAAchgLG/////9xWJwv////wnFYMjMaz///jOfiWRrP/8KM52VmAAD//42nYRAAAP/CjaeSAOQw//9yGNYa5DD/wnIYIwDkMP/CchhIAP9/AAAAAH0cAAAAAHFYChcAAP/CjafAAOQwAACM580L/38AAP//MF4az//CjOdhZv//AACNp3BG//8AAHFY8i/////CcVgyM+Qw//9yGAsb/////3FYCDYAAP//jadoMRrP//+M5wxa/38AAAAAyRv//wAAcVgINgAAAABxWK0g//8AAI2npEnkMAAAjOfWTf9/AAD//5VexX/E/959mwHn9Nxw3d4CBI9/LwD/f/9//////wL9+4IoUxFqUwADZLT9tH2Y36h+/////9dGkkwJgBcAAG06Lus+pIU8RodMFCY3UsqpaQpou+Ah7DUagJ7u8D+0YGWAbOSuGL0nG3X5/9+1RvO549/8lE0q6jViN9LrWez0zsH0u3Y3dvDfRVEnfXVnsaIUHH4XAZjMvTivgM4Cl+lkLFRKdoDX9PdXd//JnzMgEoHbAaJ+jD8nb2L/ZMrG3YTv5g9+u2Z6XwFLXW47YWqrMW2BeAJ99a1Ym755RFr6676HzMM5yh0qaoY7nD5qMt98iUj1O85BEYsgOndw")
-}]
-blend_shape_mode = 0
-shadow_mesh = SubResource("ArrayMesh_xmhff")
-
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rfi0v"]
 resource_name = "material"
 cull_mode = 2
@@ -209,7 +169,7 @@ use_collision = true
 size = Vector3(10, 0.1, 10)
 
 [node name="chao3" type="CSGBox3D" parent="estrutura" unique_id=1273515064]
-transform = Transform3D(-8.742278e-08, 0, -1, 0, 1, 0, 2, 0, -4.371139e-08, -6.45, -0.04800001, -42)
+transform = Transform3D(-8.742278e-08, 0, -1, 0, 1, 0, 2, 0, -4.371139e-08, -6.449705, -0.04800001, -41.99834)
 material_override = ExtResource("1_wipfi")
 use_collision = true
 size = Vector3(13, 0.1, 17)
@@ -227,10 +187,10 @@ use_collision = true
 size = Vector3(5, 0.1, 10)
 
 [node name="chao4" type="CSGBox3D" parent="estrutura" unique_id=472297338]
-transform = Transform3D(-8.742278e-08, 0, -1, 0, 1, 0, 2, 0, -4.371139e-08, -6.8, 3.452, -42.4)
+transform = Transform3D(-8.742278e-08, 0, -1, 0, 1, 0, 2, 0, -4.371139e-08, -6.8, 3.452, -42.300003)
 material_override = ExtResource("2_bp8sh")
 use_collision = true
-size = Vector3(13.6, 0.1, 17.7)
+size = Vector3(13.7, 0.1, 17.7)
 
 [node name="wall1" type="Node3D" parent="estrutura" unique_id=1168177804]
 
@@ -348,10 +308,10 @@ use_collision = true
 size = Vector3(0.59870607, 1.25, 0.1)
 
 [node name="wall7" type="CSGBox3D" parent="estrutura/wall2" unique_id=432789122]
-transform = Transform3D(-8.742278e-08, 0, -1, 0, 1, 0, 2, 0, -4.371139e-08, -6.9500003, 1.75, -32.25)
+transform = Transform3D(-8.742278e-08, 0, -1, 0, 1, 0, 2, 0, -4.371139e-08, -6.9500003, 1.75, -29.7)
 material_override = ExtResource("3_wipfi")
 use_collision = true
-size = Vector3(3, 3.5, 0.1)
+size = Vector3(5.55, 3.5, 0.1)
 
 [node name="wall4" type="CSGBox3D" parent="estrutura/wall2" unique_id=1531310581]
 transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, -3.3500001, 2.875, 0.7999997)
@@ -420,16 +380,22 @@ use_collision = true
 size = Vector3(4, 0.3, 0.2)
 
 [node name="rodape8" type="CSGBox3D" parent="estrutura/wall2" unique_id=1839850209]
-transform = Transform3D(-8.742278e-08, 0, 1, 0, 1, 0, -2, 0, -4.371139e-08, -6.950001, 0.14999998, -32.3)
+transform = Transform3D(-8.742278e-08, 0, 1, 0, 1, 0, -2, 0, -4.371139e-08, -6.950001, 0.14999998, -29.7)
 material_override = ExtResource("3_bp8sh")
 use_collision = true
-size = Vector3(3, 0.3, 0.2)
+size = Vector3(5.6, 0.3, 0.2)
 
 [node name="rodape24" type="CSGBox3D" parent="estrutura/wall2" unique_id=1243091692]
-transform = Transform3D(-8.742278e-08, 0, 1, 0, 1, 0, -2, 0, -4.371139e-08, -9.950001, 0.14999998, -27)
+transform = Transform3D(-8.742278e-08, 0, 1, 0, 1, 0, -2, 0, -4.371139e-08, -9.950001, 0.14999998, -29.55)
 material_override = ExtResource("3_bp8sh")
 use_collision = true
-size = Vector3(3, 0.3, 0.2)
+size = Vector3(0.45000002, 0.3, 0.2)
+
+[node name="rodape28" type="CSGBox3D" parent="estrutura/wall2" unique_id=1413376967]
+transform = Transform3D(-8.742278e-08, 0, 1, 0, 1, 0, -2, 0, -4.371139e-08, -9.950001, 0.14999998, -26.05)
+material_override = ExtResource("3_bp8sh")
+use_collision = true
+size = Vector3(1.9, 0.3, 0.2)
 
 [node name="rodape25" type="CSGBox3D" parent="estrutura/wall2" unique_id=114294973]
 transform = Transform3D(-8.742278e-08, 0, 1, 0, 1, 0, -2, 0, -4.371139e-08, -13.950001, 0.14999998, -27)
@@ -492,10 +458,22 @@ use_collision = true
 size = Vector3(3, 3.5, 0.1)
 
 [node name="wall30" type="CSGBox3D" parent="estrutura/wall2" unique_id=806044367]
-transform = Transform3D(-8.742278e-08, 0, -1, 0, 1, 0, 2, 0, -4.371139e-08, -9.95, 1.75, -27.05)
+transform = Transform3D(-8.742278e-08, 0, -1, 0, 1, 0, 2, 0, -4.371139e-08, -9.95, 1.75, -25.97)
 material_override = ExtResource("3_wipfi")
 use_collision = true
-size = Vector3(3, 3.5, 0.1)
+size = Vector3(1.92, 3.5, 0.1)
+
+[node name="wall34" type="CSGBox3D" parent="estrutura/wall2" unique_id=292037298]
+transform = Transform3D(-8.742278e-08, 0, -1, 0, 1, 0, 2, 0, -4.371139e-08, -9.95, 1.75, -29.599998)
+material_override = ExtResource("3_wipfi")
+use_collision = true
+size = Vector3(0.5, 3.5, 0.1)
+
+[node name="wall35" type="CSGBox3D" parent="estrutura/wall2" unique_id=658869994]
+transform = Transform3D(-8.742278e-08, 0, -1, 0, 1, 0, 2, 0, -4.371139e-08, -9.95, 2.88, -28.490002)
+material_override = ExtResource("3_wipfi")
+use_collision = true
+size = Vector3(0.61, 1.24, 0.1)
 
 [node name="rodape16" type="CSGBox3D" parent="estrutura/wall2" unique_id=1518816238]
 transform = Transform3D(-8.742278e-08, 0, 1, 0, 1, 0, -2, 0, -4.371139e-08, -12.950001, 0.14999998, -36.600002)
@@ -570,10 +548,10 @@ use_collision = true
 size = Vector3(7.7000003, 3.6000001, 0.1)
 
 [node name="wall32" type="CSGBox3D" parent="estrutura/wall2" unique_id=1853183866]
-transform = Transform3D(-8.742278e-08, 0, 1, 0, 1, 0, -2, 0, -4.371139e-08, -6.9968734, 1.5999999, -17.699999)
+transform = Transform3D(-8.742278e-08, 0, 1, 0, 1, 0, -2, 0, -4.371139e-08, -6.9968734, 1.5999999, -17.65)
 material_override = ExtResource("5_kfo23")
 use_collision = true
-size = Vector3(6.5, 3.6000001, 0.1)
+size = Vector3(6.4500003, 3.6000001, 0.1)
 
 [node name="wall33" type="CSGBox3D" parent="estrutura/wall2" unique_id=7825623]
 transform = Transform3D(-8.742278e-08, 0, 1, 0, 1, 0, -2, 0, -4.371139e-08, -14.296873, 1.5999999, -17.699999)
@@ -724,6 +702,12 @@ material_override = ExtResource("5_bp8sh")
 use_collision = true
 size = Vector3(0.6, 1.8000001, 0.1)
 
+[node name="wall16" type="CSGBox3D" parent="estrutura/wallWindow" unique_id=1907791523]
+transform = Transform3D(2, 0, -5.9604645e-08, 0, 1, 0, 1.1920929e-07, 0, 1, -9.2, 1.9000002, -29.150002)
+material_override = ExtResource("5_bp8sh")
+use_collision = true
+size = Vector3(0.6, 1.8000001, 0.1)
+
 [node name="wall7" type="CSGBox3D" parent="estrutura/wallWindow" unique_id=946869709]
 transform = Transform3D(-8.742278e-08, 0, -1, 0, 1, 0, 2, 0, -4.371139e-08, 1.9999999, 0.4, -12.999999)
 material_override = ExtResource("3_wipfi")
@@ -823,6 +807,9 @@ transform = Transform3D(0.9976736, 0.06817201, 1.4086522e-08, -0.06817201, 0.997
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.55, 0.4099999, 1.29)
 light_color = Color(0.4, 0.88235295, 1, 1)
 shadow_enabled = true
+shadow_bias = 0.001
+shadow_transmittance_bias = 5.0
+shadow_blur = 10.0
 
 [node name="cama" parent="Furniture" unique_id=727083984 instance=ExtResource("9_eja1m")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0.72999996, 0.31, -3.3999999)
@@ -846,15 +833,25 @@ transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -0.91999996, 0.08, -
 [node name="������_0" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1120775565) index="0" unique_id=1639078712]
 transform = Transform3D(0, -0.9617272, 0.5154108, 0.9956534, 0, 0, 0, -0.25769407, -1.9235384, 3.326631, 1.1639223, 0)
 
-[node name="Object_5" type="MeshInstance3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode/������_0" index="1" unique_id=2131070777]
-transform = Transform3D(1.0000005, 0, 0, 0, 1, 0, 0, 0, 1.0000002, 0, 75.940216, 113.98386)
-mesh = SubResource("ArrayMesh_0n5nl")
-
 [node name="������������������_001_2" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1120775565) index="1" unique_id=279473574]
 transform = Transform3D(0.572765, -0.8120851, 0, 0.8120851, 0.572765, 0, 0, 0, 1.9821914, 1.7419662, 3.3358474, 0)
 
-[node name="Object_9" type="MeshInstance3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode/������������������_001_2" index="1" unique_id=361476756]
-transform = Transform3D(1, 2.3841858e-07, 0, -2.3841858e-07, 1, 0, 0, 0, 0.9999999, -8.285322, 11.747204, -120.48361)
+[node name="������_1" type="Node3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1120775565) index="2" unique_id=474557752]
+transform = Transform3D(0, -0.8622609, -0.9956963, 0.9956534, 0, 0, 0, 0.49782643, -1.7245971, -2.064889, 1.1639223, -258.72684)
+
+[node name="Object_4" type="MeshInstance3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode/������_1" unique_id=913781271]
+mesh = SubResource("ArrayMesh_0n5nl")
+
+[node name="������_2" type="Node3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1120775565) index="3" unique_id=257863653]
+transform = Transform3D(0, -0.2576941, -1.9235381, 0.9956534, 0, 0, 0, 0.961727, -0.5154105, -2.064889, 1.1639223, -255.07483)
+
+[node name="Object_4" type="MeshInstance3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode/������_2" unique_id=740719047]
+mesh = SubResource("ArrayMesh_0n5nl")
+
+[node name="������������������_001_3" type="Node3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1120775565) index="4" unique_id=414159635]
+transform = Transform3D(0.40500602, -0.57423085, 1.4016211, 0.812085, 0.572765, 0, -0.40500602, 0.57423085, 1.4016211, -3.1854143, 3.335845, -257.60632)
+
+[node name="Object_8" type="MeshInstance3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode/������������������_001_3" unique_id=1601186338]
 mesh = SubResource("ArrayMesh_wfs8d")
 
 [node name="cigaros" parent="Furniture" unique_id=1666936657 instance=ExtResource("11_rpvgp")]
@@ -884,26 +881,6 @@ rotation_edit_mode = 2
 
 [node name="Cigarette 2_Cigarette_0" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cigarette 2" parent_id_path=PackedInt32Array(1666936657, 873992564) index="0" unique_id=2094185523]
 transform = Transform3D(1, -9.536743e-07, 3.1292439e-07, 0, 1, -3.7252903e-09, 1.4901161e-08, -4.7683716e-07, 1.0000004, 1356.3047, -4.7910156, 1382.3379)
-
-[node name="Cigarette 2_Cigarette_1" type="MeshInstance3D" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cigarette 2" parent_id_path=PackedInt32Array(1666936657, 873992564) index="1" unique_id=1038418762]
-transform = Transform3D(1, -1.04904175e-05, 3.5762787e-07, 0, 0.9999999, -1.8626451e-09, 1.4901161e-08, -5.2452087e-06, 1.0000004, -606004, -56993.047, 759787.06)
-mesh = SubResource("ArrayMesh_5etpl")
-
-[node name="Cigarette 2_Cigarette_2" type="MeshInstance3D" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cigarette 2" parent_id_path=PackedInt32Array(1666936657, 873992564) index="2" unique_id=1242322674]
-transform = Transform3D(1, -1.1920929e-05, 3.5762787e-07, 0, 0.9999999, -1.8626451e-09, 1.4901161e-08, -6.198883e-06, 1.0000004, -606534.25, -56908.61, 760822.7)
-mesh = SubResource("ArrayMesh_5etpl")
-
-[node name="Cigarette 2_Cigarette_3" type="MeshInstance3D" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cigarette 2" parent_id_path=PackedInt32Array(1666936657, 873992564) index="3" unique_id=1916185484]
-transform = Transform3D(1, -1.2397766e-05, 3.5762787e-07, 0, 0.9999999, -1.8626451e-09, 1.4901161e-08, -6.67572e-06, 1.0000004, -607252.5, -56794.27, 762225.06)
-mesh = SubResource("ArrayMesh_5etpl")
-
-[node name="Cigarette 2_Cigarette_4" type="MeshInstance3D" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cigarette 2" parent_id_path=PackedInt32Array(1666936657, 873992564) index="4" unique_id=84853670]
-transform = Transform3D(1, -1.2397766e-05, 3.5762787e-07, 0, 0.9999999, -1.8626451e-09, 1.4901161e-08, -7.6293945e-06, 1.0000004, -607909.7, -56689.64, 763508.4)
-mesh = SubResource("ArrayMesh_5etpl")
-
-[node name="Cigarette 2_Cigarette_5" type="MeshInstance3D" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cigarette 2" parent_id_path=PackedInt32Array(1666936657, 873992564) index="5" unique_id=1516399232]
-transform = Transform3D(1, -1.335144e-05, 3.5762787e-07, 0, 0.9999999, -1.8626451e-09, 1.4901161e-08, -7.6293945e-06, 1.0000004, -608927.8, -56527.53, 765496.6)
-mesh = SubResource("ArrayMesh_5etpl")
 
 [node name="Cigarette Box_Box_0" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cigarette Box" parent_id_path=PackedInt32Array(1666936657, 1629339865) index="0" unique_id=1606040087]
 transform = Transform3D(0.99999994, -1.7763568e-15, 8.881784e-16, 0, 1, 2.9802322e-08, 2.6645353e-15, -2.9802322e-08, 1, 32.643066, 0, 0)
@@ -1103,6 +1080,42 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.049999952, 0.70000005, -0.
 shape = SubResource("BoxShape3D_u7a0b")
 disabled = true
 
+[node name="porta8" parent="." unique_id=1315399730 instance=ExtResource("12_dr41g")]
+transform = Transform3D(-5.7699033e-08, 0, -1, 0, 1.2, 0, 1.32, 0, -4.371139e-08, -10.045234, -0.050410673, -33.500004)
+
+[node name="Wooden Door_001_001" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1315399730, 265812363) index="0" unique_id=763568267]
+transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 40, 94.78659, -5.6806335)
+
+[node name="Wooden Door_001_001_Doors_0" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=27241638]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.010000229, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0" index="0" unique_id=1456013394]
+script = ExtResource("13_u7a0b")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0/StaticBody3D" unique_id=18734986]
+shape = SubResource("ConcavePolygonShape3D_u230l")
+
+[node name="SomPortaOpen" type="AudioStreamPlayer3D" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0/StaticBody3D" unique_id=1657131620]
+stream = SubResource("AudioStreamMP3_u7a0b")
+volume_db = -5.0
+
+[node name="SomPortaClose" type="AudioStreamPlayer3D" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0/StaticBody3D" unique_id=104819101]
+stream = SubResource("AudioStreamMP3_u230l")
+
+[node name="Door Handle_021_Doors_0" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(1315399730, 724315088) index="0" unique_id=504761426]
+visible = false
+
+[node name="Wooden Doorframe_001_002" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1315399730, 265812363) index="1" unique_id=1254521573]
+transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 0, 118.381836, -5.5655212)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="porta8" unique_id=34672271]
+script = ExtResource("13_kymfh")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="porta8/StaticBody3D" unique_id=292372506]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.049999952, 0.70000005, -0.05000019)
+shape = SubResource("BoxShape3D_u7a0b")
+disabled = true
+
 [node name="porta7" parent="." unique_id=1846979417 instance=ExtResource("12_dr41g")]
 transform = Transform3D(1.32, 0, 0, 0, 1.2, 0, 0, 0, 1, -11.455235, -0.050410673, -29.050003)
 
@@ -1144,6 +1157,20 @@ transform = Transform3D(15.183477, 0, 0, 0, 1.0122318, 0, 0, 0, 15.183477, -9, -
 material_override = SubResource("StandardMaterial3D_kfo23")
 mesh = SubResource("BoxMesh_pyvie")
 
+[node name="fridge" parent="." unique_id=1053873394 instance=ExtResource("19_18uxv")]
+transform = Transform3D(-6.556708e-08, 0, -1.5, 0, 1.5, 0, 1.5, 0, -6.556708e-08, -4.35, 0.030000016, -41.7)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="fridge" unique_id=160879339]
+transform = Transform3D(0.6666667, 0, -7.1054274e-15, 0, 0.6666667, 0, 7.1054274e-15, 0, 0.6666667, 0, 1.4333333, -0.1333332)
+light_color = Color(0.835722, 0.5929305, 0.22377598, 1)
+light_energy = 1.792
+light_indirect_energy = 7.653
+light_volumetric_fog_energy = 8.287
+light_specular = 1.292
+shadow_enabled = true
+shadow_bias = 0.0
+shadow_blur = 10.0
+
 [editable path="Furniture/Pczao"]
 [editable path="Furniture/Pczao2"]
 [editable path="Furniture/cama"]
@@ -1155,4 +1182,5 @@ mesh = SubResource("BoxMesh_pyvie")
 [editable path="porta4"]
 [editable path="porta5"]
 [editable path="porta6"]
+[editable path="porta8"]
 [editable path="porta7"]
