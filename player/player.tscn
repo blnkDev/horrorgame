@@ -11,6 +11,8 @@
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_hpqk7"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_3ktyq"]
+lightmap_size_hint = Vector2i(17, 14)
+height = 2.443
 
 [sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_g1dw6"]
 random_pitch = 1.122462
@@ -44,9 +46,10 @@ script = ExtResource("1_rkbax")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=747664894]
 shape = SubResource("CapsuleShape3D_hpqk7")
+debug_color = Color(1.4439225e-06, 0.58768743, 0.7676222, 0.41960785)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=502664061]
-cast_shadow = 0
+transparency = 1.0
 mesh = SubResource("CapsuleMesh_3ktyq")
 
 [node name="head" type="Node3D" parent="." unique_id=1407534661]
@@ -59,7 +62,7 @@ script = ExtResource("2_g1dw6")
 transform = Transform3D(-0.098747656, 0.0010810352, -0.015739383, -0.0007025546, 0.09936467, 0.011232474, 0.015760818, 0.011202384, -0.09811267, 0.42200536, -0.31053913, -0.4286455)
 script = ExtResource("4_boad6")
 
-[node name="Object_2" parent="head/Camera3D/flashlight/Sketchfab_model/Flashlight_obj_cleaner_materialmerger_gles" parent_id_path=PackedInt32Array(1580010387, 930932206) index="0" unique_id=300063620]
+[node name="Object_2" parent="head/Camera3D/flashlight/Sketchfab_model/Flashlight_obj_cleaner_materialmerger_gles" parent_id_path=PackedInt32Array(1580010387, 542598227) index="0" unique_id=743489320]
 cast_shadow = 0
 
 [node name="SpotLight3D" type="SpotLight3D" parent="head/Camera3D/flashlight" unique_id=1514669300]
