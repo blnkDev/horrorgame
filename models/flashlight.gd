@@ -2,7 +2,7 @@ extends Node3D
 
 @export_category("Configuração do Lag")
 @export var intensidade_sway: float = 0.02  # O quanto ela afasta quando mexe o mouse rápido
-@export var limite_maximo: float = 0.05     # Limite para a lanterna não sair voando da tela
+@export var limite_maximo: float = 0.02    # Limite para a lanterna não sair voando da tela
 @export var velocidade_retorno: float = 7.0  # Velocidade com que ela volta pro centro
 
 var rotacao_original: Vector3

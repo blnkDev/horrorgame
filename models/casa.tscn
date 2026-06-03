@@ -7,7 +7,7 @@
 [ext_resource type="Material" uid="uid://dc86em4iivqic" path="res://materials/window1.tres" id="5_bp8sh"]
 [ext_resource type="Material" uid="uid://d0g8ekdy6qkn6" path="res://materials/brickwall.tres" id="5_kfo23"]
 [ext_resource type="PackedScene" uid="uid://dl4u2w3hmkiqk" path="res://models/furniture/psx_wooden_table.glb" id="6_1buw8"]
-[ext_resource type="PackedScene" uid="uid://coofht2kbv747" path="res://models/furniture/wardrobe.glb" id="6_dwtfx"]
+[ext_resource type="PackedScene" uid="uid://cd2r3th25aa4l" path="res://models/furniture/wardrobe.glb" id="6_dwtfx"]
 [ext_resource type="PackedScene" uid="uid://dqiusurm4exvi" path="res://models/furniture/90s_desktop_pc_-_psx.glb" id="8_yy2kw"]
 [ext_resource type="PackedScene" uid="uid://jhj0lh3oqwj6" path="res://models/furniture/retro_lowpoly_bed.glb" id="9_eja1m"]
 [ext_resource type="PackedScene" uid="uid://4toqiy1g0rhc" path="res://models/furniture/chair_v2.glb" id="9_ghdjw"]
@@ -269,7 +269,8 @@ shadow_mesh = SubResource("ArrayMesh_yd8pa")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kfo23"]
 albedo_texture = ExtResource("15_u230l")
-uv1_scale = Vector3(10, 10, 10)
+uv1_scale = Vector3(0.655, 0.655, 0.655)
+uv1_triplanar = true
 
 [sub_resource type="BoxMesh" id="BoxMesh_pyvie"]
 lightmap_size_hint = Vector2i(68, 49)
@@ -1037,16 +1038,16 @@ shape = SubResource("ConcavePolygonShape3D_yy2kw")
 [node name="Pczao" parent="Furniture" unique_id=978517772 instance=ExtResource("8_yy2kw")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.54, 0.96, -2.08)
 
-[node name="Sketchfab_model" parent="Furniture/Pczao" index="0" unique_id=889471534]
+[node name="Sketchfab_model" parent="Furniture/Pczao" index="0" unique_id=1376993246]
 transform = Transform3D(-0.25, 3.774895e-08, 1.650059e-15, 0, -1.0927847e-08, 0.25, 3.774895e-08, 0.25, 1.0927847e-08, -0.7316698, 0, 1.5281334)
 
-[node name="Cube_006" parent="Furniture/Pczao/Sketchfab_model/be79b16830a04c7c8a21bc5e9c3cf23c_fbx/RootNode" parent_id_path=PackedInt32Array(978517772, 1273733299) index="6" unique_id=138253194]
+[node name="Cube_006" parent="Furniture/Pczao/Sketchfab_model/be79b16830a04c7c8a21bc5e9c3cf23c_fbx/RootNode" parent_id_path=PackedInt32Array(978517772, 424143981) index="6" unique_id=1632931296]
 transform = Transform3D(110.00428, 24.19145, 2.587018e-06, -8.962271e-07, -2.160767e-05, 68.32872, 20.503288, -129.79199, -1.0893126e-05, -140.81528, 0, 153.81787)
 
-[node name="Cube_008" parent="Furniture/Pczao/Sketchfab_model/be79b16830a04c7c8a21bc5e9c3cf23c_fbx/RootNode" parent_id_path=PackedInt32Array(978517772, 1273733299) index="7" unique_id=1181165138]
+[node name="Cube_008" parent="Furniture/Pczao/Sketchfab_model/be79b16830a04c7c8a21bc5e9c3cf23c_fbx/RootNode" parent_id_path=PackedInt32Array(978517772, 424143981) index="7" unique_id=1569116487]
 transform = Transform3D(98.85465, -15.091576, -3.1184034e-06, 6.596737e-07, -1.6342132e-05, 100, -15.091576, -98.85465, -1.6055401e-05, 60.105667, 0, 133.9961)
 
-[node name="Cube_011_Material_0" parent="Furniture/Pczao/Sketchfab_model/be79b16830a04c7c8a21bc5e9c3cf23c_fbx/RootNode/Cube_011" parent_id_path=PackedInt32Array(978517772, 202269076) index="0" unique_id=351590802]
+[node name="Cube_011_Material_0" parent="Furniture/Pczao/Sketchfab_model/be79b16830a04c7c8a21bc5e9c3cf23c_fbx/RootNode/Cube_011" parent_id_path=PackedInt32Array(978517772, 657692056) index="0" unique_id=1459935875]
 transform = Transform3D(0.9976736, 0.06817201, 1.4086522e-08, -0.06817201, 0.9976736, -4.807106e-10, -1.4086522e-08, -4.807106e-10, 1, 0, 0, 0)
 
 [node name="OmniLight3D" type="OmniLight3D" parent="Furniture/Pczao" unique_id=1815646505]
@@ -1057,16 +1058,16 @@ shadow_enabled = true
 [node name="Pczao2" parent="Furniture" unique_id=1131155241 instance=ExtResource("8_yy2kw")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -6.5600004, 0.96, -38.28)
 
-[node name="Sketchfab_model" parent="Furniture/Pczao2" index="0" unique_id=889471534]
+[node name="Sketchfab_model" parent="Furniture/Pczao2" index="0" unique_id=1376993246]
 transform = Transform3D(-0.25, 3.774895e-08, 1.650059e-15, 0, -1.0927847e-08, 0.25, 3.774895e-08, 0.25, 1.0927847e-08, -0.7316698, 0, 1.5281334)
 
-[node name="Cube_006" parent="Furniture/Pczao2/Sketchfab_model/be79b16830a04c7c8a21bc5e9c3cf23c_fbx/RootNode" parent_id_path=PackedInt32Array(1131155241, 1273733299) index="6" unique_id=138253194]
+[node name="Cube_006" parent="Furniture/Pczao2/Sketchfab_model/be79b16830a04c7c8a21bc5e9c3cf23c_fbx/RootNode" parent_id_path=PackedInt32Array(1131155241, 424143981) index="6" unique_id=1632931296]
 transform = Transform3D(110.00428, 24.19145, 2.587018e-06, -8.962271e-07, -2.160767e-05, 68.32872, 20.503288, -129.79199, -1.0893126e-05, -140.81528, 0, 153.81787)
 
-[node name="Cube_008" parent="Furniture/Pczao2/Sketchfab_model/be79b16830a04c7c8a21bc5e9c3cf23c_fbx/RootNode" parent_id_path=PackedInt32Array(1131155241, 1273733299) index="7" unique_id=1181165138]
+[node name="Cube_008" parent="Furniture/Pczao2/Sketchfab_model/be79b16830a04c7c8a21bc5e9c3cf23c_fbx/RootNode" parent_id_path=PackedInt32Array(1131155241, 424143981) index="7" unique_id=1569116487]
 transform = Transform3D(98.85465, -15.091576, -3.1184034e-06, 6.596737e-07, -1.6342132e-05, 100, -15.091576, -98.85465, -1.6055401e-05, 60.105667, 0, 133.9961)
 
-[node name="Cube_011_Material_0" parent="Furniture/Pczao2/Sketchfab_model/be79b16830a04c7c8a21bc5e9c3cf23c_fbx/RootNode/Cube_011" parent_id_path=PackedInt32Array(1131155241, 202269076) index="0" unique_id=351590802]
+[node name="Cube_011_Material_0" parent="Furniture/Pczao2/Sketchfab_model/be79b16830a04c7c8a21bc5e9c3cf23c_fbx/RootNode/Cube_011" parent_id_path=PackedInt32Array(1131155241, 657692056) index="0" unique_id=1459935875]
 transform = Transform3D(0.9976736, 0.06817201, 1.4086522e-08, -0.06817201, 0.9976736, -4.807106e-10, -1.4086522e-08, -4.807106e-10, 1, 0, 0, 0)
 
 [node name="OmniLight3D" type="OmniLight3D" parent="Furniture/Pczao2" unique_id=786030817]
@@ -1081,7 +1082,7 @@ shadow_blur = 10.0
 [node name="cama" parent="Furniture" unique_id=727083984 instance=ExtResource("9_eja1m")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0.72999996, 0.31, -3.3999999)
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Furniture/cama/Sketchfab_model/root/GLTF_SceneRootNode/BedLow_0/Object_4" parent_id_path=PackedInt32Array(727083984, 1431847848) index="0" unique_id=875908282]
+[node name="StaticBody3D" type="StaticBody3D" parent="Furniture/cama/Sketchfab_model/root/GLTF_SceneRootNode/BedLow_0/Object_4" parent_id_path=PackedInt32Array(727083984, 129678434) index="0" unique_id=875908282]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Furniture/cama/Sketchfab_model/root/GLTF_SceneRootNode/BedLow_0/Object_4/StaticBody3D" unique_id=979031866]
 shape = SubResource("ConcavePolygonShape3D_ghdjw")
@@ -1089,7 +1090,7 @@ shape = SubResource("ConcavePolygonShape3D_ghdjw")
 [node name="cama2" parent="Furniture" unique_id=2026622425 instance=ExtResource("9_eja1m")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -3.8700001, 0.31, -39)
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Furniture/cama2/Sketchfab_model/root/GLTF_SceneRootNode/BedLow_0/Object_4" parent_id_path=PackedInt32Array(2026622425, 1431847848) index="0" unique_id=1977160420]
+[node name="StaticBody3D" type="StaticBody3D" parent="Furniture/cama2/Sketchfab_model/root/GLTF_SceneRootNode/BedLow_0/Object_4" parent_id_path=PackedInt32Array(2026622425, 129678434) index="0" unique_id=1977160420]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Furniture/cama2/Sketchfab_model/root/GLTF_SceneRootNode/BedLow_0/Object_4/StaticBody3D" unique_id=2044690097]
 shape = SubResource("ConcavePolygonShape3D_ghdjw")
@@ -1097,25 +1098,25 @@ shape = SubResource("ConcavePolygonShape3D_ghdjw")
 [node name="vaixas" parent="Furniture" unique_id=1431908673 instance=ExtResource("10_ghdjw")]
 transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -0.91999996, 0.08, -0.59999996)
 
-[node name="������_0" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1120775565) index="0" unique_id=1639078712]
+[node name="������_0" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1329428206) index="0" unique_id=1537786622]
 transform = Transform3D(0, -0.9617272, 0.5154108, 0.9956534, 0, 0, 0, -0.25769407, -1.9235384, 3.326631, 1.1639223, 0)
 
-[node name="������������������_001_2" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1120775565) index="1" unique_id=279473574]
+[node name="������������������_001_2" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1329428206) index="1" unique_id=582543878]
 transform = Transform3D(0.572765, -0.8120851, 0, 0.8120851, 0.572765, 0, 0, 0, 1.9821914, 1.7419662, 3.3358474, 0)
 
-[node name="������_1" type="Node3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1120775565) index="2" unique_id=474557752]
+[node name="������_1" type="Node3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1329428206) index="2" unique_id=474557752]
 transform = Transform3D(0, -0.8622609, -0.9956963, 0.9956534, 0, 0, 0, 0.49782643, -1.7245971, -2.064889, 1.1639223, -258.72684)
 
 [node name="Object_4" type="MeshInstance3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode/������_1" unique_id=913781271]
 mesh = SubResource("ArrayMesh_0n5nl")
 
-[node name="������_2" type="Node3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1120775565) index="3" unique_id=257863653]
+[node name="������_2" type="Node3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1329428206) index="3" unique_id=257863653]
 transform = Transform3D(0, -0.2576941, -1.9235381, 0.9956534, 0, 0, 0, 0.961727, -0.5154105, -2.064889, 1.1639223, -255.07483)
 
 [node name="Object_4" type="MeshInstance3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode/������_2" unique_id=740719047]
 mesh = SubResource("ArrayMesh_0n5nl")
 
-[node name="������������������_001_3" type="Node3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1120775565) index="4" unique_id=414159635]
+[node name="������������������_001_3" type="Node3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1431908673, 1329428206) index="4" unique_id=414159635]
 transform = Transform3D(0.40500602, -0.57423085, 1.4016211, 0.812085, 0.572765, 0, -0.40500602, 0.57423085, 1.4016211, -3.1854143, 3.335845, -257.60632)
 
 [node name="Object_8" type="MeshInstance3D" parent="Furniture/vaixas/Sketchfab_model/root/GLTF_SceneRootNode/������������������_001_3" unique_id=1601186338]
@@ -1124,35 +1125,35 @@ mesh = SubResource("ArrayMesh_wfs8d")
 [node name="cigaros" parent="Furniture" unique_id=1666936657 instance=ExtResource("11_rpvgp")]
 transform = Transform3D(-4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0, 1, -4.92, 3.8899999, -2.22)
 
-[node name="Sketchfab_model" parent="Furniture/cigaros" index="0" unique_id=1695046499]
+[node name="Sketchfab_model" parent="Furniture/cigaros" index="0" unique_id=1723731480]
 transform = Transform3D(0.14999999, 3.278354e-09, 8.7843244e-10, 8.7843244e-10, -0.075, 0.12990381, 3.278354e-09, -0.12990381, -0.075, 2.8899996, 4.77, 1.17)
 
-[node name="Lighter + Cigarette + Pack_fbx" parent="Furniture/cigaros/Sketchfab_model" index="0" unique_id=982914819]
+[node name="Lighter + Cigarette + Pack_fbx" parent="Furniture/cigaros/Sketchfab_model" index="0" unique_id=1755424518]
 transform = Transform3D(0.009999998, -1.3877788e-17, 0, -2.7755576e-17, 0, -0.01, -1.3877788e-17, 0.01, 0, -0.19999981, 0, 0)
 
-[node name="Cube_002" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode" parent_id_path=PackedInt32Array(1666936657, 120857714) index="0" unique_id=1263127641]
+[node name="Cube_002" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode" parent_id_path=PackedInt32Array(1666936657, 1087046575) index="0" unique_id=803404876]
 transform = Transform3D(0.07814717, -1.1959544e-09, 0.0003150838, 4.742735e-10, 0.20065758, 1.3772778e-11, -0.00015677937, 1.1641532e-08, 0.15705442, 30.785828, 37.99997, -12.832947)
 
-[node name="Cube_002_Lighter_0" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cube_002" index="0" unique_id=453143725]
+[node name="Cube_002_Lighter_0" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cube_002" index="0" unique_id=1761427892]
 transform = Transform3D(1, 0, -4.656613e-10, 2.910383e-11, 1, -2.9802322e-08, -1.1641532e-10, -5.9604645e-08, 1, 85.30859, 0, 0.08496094)
 
-[node name="Cube_003" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode" parent_id_path=PackedInt32Array(1666936657, 120857714) index="1" unique_id=373978984]
+[node name="Cube_003" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode" parent_id_path=PackedInt32Array(1666936657, 1087046575) index="1" unique_id=1128556736]
 transform = Transform3D(0.07814717, -5.8626837e-10, 0.00031508383, 4.7143134e-10, 0.100697264, -5.8069936e-09, -0.00015678229, 2.910383e-09, 0.15705442, 30.81601, 62.30301, 2.1938019)
 
-[node name="Cube_003_Lighter_0" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cube_003" index="0" unique_id=978350306]
+[node name="Cube_003_Lighter_0" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cube_003" index="0" unique_id=2035738078]
 transform = Transform3D(1, -1.1641532e-10, 0, 5.820766e-11, 1, -5.9604645e-08, 5.820766e-11, 2.9802322e-08, 1, 85.30859, 0, 0.08496094)
 
-[node name="Cigarette 1_Cigarette_0" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cigarette 1" parent_id_path=PackedInt32Array(1666936657, 328804901) index="0" unique_id=1732655190]
+[node name="Cigarette 1_Cigarette_0" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cigarette 1" parent_id_path=PackedInt32Array(1666936657, 263109688) index="0" unique_id=90456433]
 transform = Transform3D(1.0000101, -1.1920929e-07, -3.874302e-07, 1.9557774e-08, 1.0000001, 1.9092113e-06, 3.2782555e-07, -1.9073486e-06, 1.0000014, -588.75, -84.11331, -3214.9727)
 rotation_edit_mode = 2
 
-[node name="Cigarette 2_Cigarette_0" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cigarette 2" parent_id_path=PackedInt32Array(1666936657, 873992564) index="0" unique_id=2094185523]
+[node name="Cigarette 2_Cigarette_0" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cigarette 2" parent_id_path=PackedInt32Array(1666936657, 1721639243) index="0" unique_id=1121748754]
 transform = Transform3D(1, -9.536743e-07, 3.1292439e-07, 0, 1, -3.7252903e-09, 1.4901161e-08, -4.7683716e-07, 1.0000004, 1356.3047, -4.7910156, 1382.3379)
 
-[node name="Cigarette Box_Box_0" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cigarette Box" parent_id_path=PackedInt32Array(1666936657, 1629339865) index="0" unique_id=1606040087]
+[node name="Cigarette Box_Box_0" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cigarette Box" parent_id_path=PackedInt32Array(1666936657, 1551883323) index="0" unique_id=1073472389]
 transform = Transform3D(0.99999994, -1.7763568e-15, 8.881784e-16, 0, 1, 2.9802322e-08, 2.6645353e-15, -2.9802322e-08, 1, 32.643066, 0, 0)
 
-[node name="Cigarette Box2" type="Node3D" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode" parent_id_path=PackedInt32Array(1666936657, 120857714) index="5" unique_id=1240271802]
+[node name="Cigarette Box2" type="Node3D" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode" parent_id_path=PackedInt32Array(1666936657, 1087046575) index="5" unique_id=1240271802]
 transform = Transform3D(0.20422912, 1.596733e-17, 2.904094e-18, -1.5967332e-17, 0.19115025, 0.07191046, 2.9040905e-18, -0.07191046, 0.19115025, 27.166462, 90.67998, 35.961086)
 
 [node name="Cigarette Box_Box_0" type="MeshInstance3D" parent="Furniture/cigaros/Sketchfab_model/Lighter + Cigarette + Pack_fbx/RootNode/Cigarette Box2" unique_id=86354394]
@@ -1170,10 +1171,10 @@ mesh = SubResource("ArrayMesh_ih25f")
 [node name="porta" parent="." unique_id=1797781298 instance=ExtResource("12_dr41g")]
 transform = Transform3D(1.32, 0, 0, 0, 1.2, 0, 0, 0, 1, -3.3499997, -0.050410673, -4.15)
 
-[node name="Wooden Door_001_001" parent="porta/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1797781298, 265812363) index="0" unique_id=763568267]
+[node name="Wooden Door_001_001" parent="porta/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1797781298, 1365781791) index="0" unique_id=339809138]
 transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 40, 94.78659, -5.6806335)
 
-[node name="Wooden Door_001_001_Doors_0" parent="porta/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=27241638]
+[node name="Wooden Door_001_001_Doors_0" parent="porta/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=78851647]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.010000229, 0, 0)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="porta/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0" index="0" unique_id=72437803]
@@ -1189,10 +1190,10 @@ volume_db = -5.0
 [node name="SomPortaClose" type="AudioStreamPlayer3D" parent="porta/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0/StaticBody3D" unique_id=209253746]
 stream = SubResource("AudioStreamMP3_u230l")
 
-[node name="Door Handle_021_Doors_0" parent="porta/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(1797781298, 724315088) index="0" unique_id=504761426]
+[node name="Door Handle_021_Doors_0" parent="porta/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(1797781298, 158497175) index="0" unique_id=477079553]
 visible = false
 
-[node name="Wooden Doorframe_001_002" parent="porta/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1797781298, 265812363) index="1" unique_id=1254521573]
+[node name="Wooden Doorframe_001_002" parent="porta/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1797781298, 1365781791) index="1" unique_id=1588853959]
 transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 0, 118.381836, -5.5655212)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="porta" unique_id=126254071]
@@ -1206,10 +1207,10 @@ disabled = true
 [node name="porta3" parent="." unique_id=951851959 instance=ExtResource("12_dr41g")]
 transform = Transform3D(1.32, 0, 0, 0, 1.2, 0, 0, 0, 1, -2.405234, -0.050410673, -40.15)
 
-[node name="Wooden Door_001_001" parent="porta3/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(951851959, 265812363) index="0" unique_id=763568267]
+[node name="Wooden Door_001_001" parent="porta3/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(951851959, 1365781791) index="0" unique_id=339809138]
 transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 40, 94.78659, -5.6806335)
 
-[node name="Wooden Door_001_001_Doors_0" parent="porta3/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=27241638]
+[node name="Wooden Door_001_001_Doors_0" parent="porta3/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=78851647]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.010000229, 0, 0)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="porta3/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0" index="0" unique_id=71855861]
@@ -1225,10 +1226,10 @@ volume_db = -5.0
 [node name="SomPortaClose" type="AudioStreamPlayer3D" parent="porta3/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0/StaticBody3D" unique_id=1943929466]
 stream = SubResource("AudioStreamMP3_u230l")
 
-[node name="Door Handle_021_Doors_0" parent="porta3/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(951851959, 724315088) index="0" unique_id=504761426]
+[node name="Door Handle_021_Doors_0" parent="porta3/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(951851959, 158497175) index="0" unique_id=477079553]
 visible = false
 
-[node name="Wooden Doorframe_001_002" parent="porta3/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(951851959, 265812363) index="1" unique_id=1254521573]
+[node name="Wooden Doorframe_001_002" parent="porta3/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(951851959, 1365781791) index="1" unique_id=1588853959]
 transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 0, 118.381836, -5.5655212)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="porta3" unique_id=1242624912]
@@ -1242,10 +1243,10 @@ disabled = true
 [node name="porta4" parent="." unique_id=1557498695 instance=ExtResource("12_dr41g")]
 transform = Transform3D(1.32, 0, 0, 0, 1.2, 0, 0, 0, 1, -2.405234, -0.050410673, -48.15)
 
-[node name="Wooden Door_001_001" parent="porta4/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1557498695, 265812363) index="0" unique_id=763568267]
+[node name="Wooden Door_001_001" parent="porta4/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1557498695, 1365781791) index="0" unique_id=339809138]
 transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 40, 94.78659, -5.6806335)
 
-[node name="Wooden Door_001_001_Doors_0" parent="porta4/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=27241638]
+[node name="Wooden Door_001_001_Doors_0" parent="porta4/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=78851647]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.010000229, 0, 0)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="porta4/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0" index="0" unique_id=325766442]
@@ -1261,10 +1262,10 @@ volume_db = -5.0
 [node name="SomPortaClose" type="AudioStreamPlayer3D" parent="porta4/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0/StaticBody3D" unique_id=1734679270]
 stream = SubResource("AudioStreamMP3_u230l")
 
-[node name="Door Handle_021_Doors_0" parent="porta4/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(1557498695, 724315088) index="0" unique_id=504761426]
+[node name="Door Handle_021_Doors_0" parent="porta4/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(1557498695, 158497175) index="0" unique_id=477079553]
 visible = false
 
-[node name="Wooden Doorframe_001_002" parent="porta4/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1557498695, 265812363) index="1" unique_id=1254521573]
+[node name="Wooden Doorframe_001_002" parent="porta4/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1557498695, 1365781791) index="1" unique_id=1588853959]
 transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 0, 118.381836, -5.5655212)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="porta4" unique_id=1581719925]
@@ -1278,10 +1279,10 @@ disabled = true
 [node name="porta5" parent="." unique_id=1870370001 instance=ExtResource("12_dr41g")]
 transform = Transform3D(-1.32, 0, 8.742278e-08, 0, 1.2, 0, -1.15398066e-07, 0, -1, -4.4052343, -0.050410673, -48.15)
 
-[node name="Wooden Door_001_001" parent="porta5/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1870370001, 265812363) index="0" unique_id=763568267]
+[node name="Wooden Door_001_001" parent="porta5/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1870370001, 1365781791) index="0" unique_id=339809138]
 transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 40, 94.78659, -5.6806335)
 
-[node name="Wooden Door_001_001_Doors_0" parent="porta5/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=27241638]
+[node name="Wooden Door_001_001_Doors_0" parent="porta5/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=78851647]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.010000229, 0, 0)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="porta5/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0" index="0" unique_id=1322217813]
@@ -1297,10 +1298,10 @@ volume_db = -5.0
 [node name="SomPortaClose" type="AudioStreamPlayer3D" parent="porta5/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0/StaticBody3D" unique_id=241554844]
 stream = SubResource("AudioStreamMP3_u230l")
 
-[node name="Door Handle_021_Doors_0" parent="porta5/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(1870370001, 724315088) index="0" unique_id=504761426]
+[node name="Door Handle_021_Doors_0" parent="porta5/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(1870370001, 158497175) index="0" unique_id=477079553]
 visible = false
 
-[node name="Wooden Doorframe_001_002" parent="porta5/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1870370001, 265812363) index="1" unique_id=1254521573]
+[node name="Wooden Doorframe_001_002" parent="porta5/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1870370001, 1365781791) index="1" unique_id=1588853959]
 transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 0, 118.381836, -5.5655212)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="porta5" unique_id=626770711]
@@ -1314,10 +1315,10 @@ disabled = true
 [node name="porta9" parent="." unique_id=1345798007 instance=ExtResource("12_dr41g")]
 transform = Transform3D(1.730971e-07, 0, 1, 0, 1.2, 0, -1.32, 0, 1.3113416e-07, -12.805235, -0.050410673, -51)
 
-[node name="Wooden Door_001_001" parent="porta9/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1345798007, 265812363) index="0" unique_id=763568267]
+[node name="Wooden Door_001_001" parent="porta9/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1345798007, 1365781791) index="0" unique_id=339809138]
 transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 40, 94.78659, -5.6806335)
 
-[node name="Wooden Door_001_001_Doors_0" parent="porta9/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=27241638]
+[node name="Wooden Door_001_001_Doors_0" parent="porta9/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=78851647]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.010000229, 0, 0)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="porta9/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0" index="0" unique_id=1442852689]
@@ -1333,10 +1334,10 @@ volume_db = -5.0
 [node name="SomPortaClose" type="AudioStreamPlayer3D" parent="porta9/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0/StaticBody3D" unique_id=1608351001]
 stream = SubResource("AudioStreamMP3_u230l")
 
-[node name="Door Handle_021_Doors_0" parent="porta9/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(1345798007, 724315088) index="0" unique_id=504761426]
+[node name="Door Handle_021_Doors_0" parent="porta9/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(1345798007, 158497175) index="0" unique_id=477079553]
 visible = false
 
-[node name="Wooden Doorframe_001_002" parent="porta9/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1345798007, 265812363) index="1" unique_id=1254521573]
+[node name="Wooden Doorframe_001_002" parent="porta9/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1345798007, 1365781791) index="1" unique_id=1588853959]
 transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 0, 118.381836, -5.5655212)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="porta9" unique_id=222893732]
@@ -1350,10 +1351,10 @@ disabled = true
 [node name="porta6" parent="." unique_id=1803234709 instance=ExtResource("12_dr41g")]
 transform = Transform3D(-1.32, 0, 8.742278e-08, 0, 1.2, 0, -1.15398066e-07, 0, -1, -11.455235, -0.050410673, -35.15)
 
-[node name="Wooden Door_001_001" parent="porta6/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1803234709, 265812363) index="0" unique_id=763568267]
+[node name="Wooden Door_001_001" parent="porta6/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1803234709, 1365781791) index="0" unique_id=339809138]
 transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 40, 94.78659, -5.6806335)
 
-[node name="Wooden Door_001_001_Doors_0" parent="porta6/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=27241638]
+[node name="Wooden Door_001_001_Doors_0" parent="porta6/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=78851647]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.010000229, 0, 0)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="porta6/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0" index="0" unique_id=46548804]
@@ -1369,13 +1370,13 @@ volume_db = -5.0
 [node name="SomPortaClose" type="AudioStreamPlayer3D" parent="porta6/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0/StaticBody3D" unique_id=1516202367]
 stream = SubResource("AudioStreamMP3_u230l")
 
-[node name="Door Handle_021_Doors_0" parent="porta6/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(1803234709, 724315088) index="0" unique_id=504761426]
+[node name="Door Handle_021_Doors_0" parent="porta6/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(1803234709, 158497175) index="0" unique_id=477079553]
 visible = false
 
-[node name="Wooden Doorframe_001_002" parent="porta6/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1803234709, 265812363) index="1" unique_id=1254521573]
+[node name="Wooden Doorframe_001_002" parent="porta6/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1803234709, 1365781791) index="1" unique_id=1588853959]
 transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 0, 118.381836, -5.5655212)
 
-[node name="Wooden Doorframe_001_002_Doors_0" parent="porta6/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Doorframe_001_002" index="0" unique_id=1035203174]
+[node name="Wooden Doorframe_001_002_Doors_0" parent="porta6/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Doorframe_001_002" index="0" unique_id=1035063580]
 transform = Transform3D(1, 0, -8.4703295e-22, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="porta6" unique_id=123772614]
@@ -1389,10 +1390,10 @@ disabled = true
 [node name="porta8" parent="." unique_id=1315399730 instance=ExtResource("12_dr41g")]
 transform = Transform3D(1.730971e-07, 0, 1, 0, 1.2, 0, -1.32, 0, 1.3113416e-07, -9.895234, -0.050410673, -33.500004)
 
-[node name="Wooden Door_001_001" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1315399730, 265812363) index="0" unique_id=763568267]
+[node name="Wooden Door_001_001" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1315399730, 1365781791) index="0" unique_id=339809138]
 transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 40, 94.78659, -5.6806335)
 
-[node name="Wooden Door_001_001_Doors_0" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=27241638]
+[node name="Wooden Door_001_001_Doors_0" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001" index="0" unique_id=78851647]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.010000229, 0, 0)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0" index="0" unique_id=1456013394]
@@ -1408,10 +1409,10 @@ volume_db = -5.0
 [node name="SomPortaClose" type="AudioStreamPlayer3D" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Wooden Door_001_001_Doors_0/StaticBody3D" unique_id=104819101]
 stream = SubResource("AudioStreamMP3_u230l")
 
-[node name="Door Handle_021_Doors_0" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(1315399730, 724315088) index="0" unique_id=504761426]
+[node name="Door Handle_021_Doors_0" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode/Wooden Door_001_001/Door Handle_021" parent_id_path=PackedInt32Array(1315399730, 158497175) index="0" unique_id=477079553]
 visible = false
 
-[node name="Wooden Doorframe_001_002" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1315399730, 265812363) index="1" unique_id=1254521573]
+[node name="Wooden Doorframe_001_002" parent="porta8/Sketchfab_model/ba63d6a3229749779fcb31eba608892d_fbx/RootNode" parent_id_path=PackedInt32Array(1315399730, 1365781791) index="1" unique_id=1588853959]
 transform = Transform3D(100, 0, 0, 0, -1.6292068e-05, 100, 0, -100, -1.6292068e-05, 0, 118.381836, -5.5655212)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="porta8" unique_id=34672271]
@@ -1475,7 +1476,7 @@ shape = SubResource("BoxShape3D_u7a0b")
 disabled = true
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=2139683769]
-transform = Transform3D(15.183477, 0, 0, 0, 1.0122318, 0, 0, 0, 15.183477, -9, -0.6, -27.881481)
+transform = Transform3D(1.5896627, 0, 0, 0, 1.0122318, 0, 0, 0, 1.3332676, -10.853163, -0.6, -27.150164)
 material_override = SubResource("StandardMaterial3D_kfo23")
 gi_mode = 2
 mesh = SubResource("BoxMesh_pyvie")
